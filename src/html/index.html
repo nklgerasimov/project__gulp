@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Travel X</title>
+</head>
+<body>
+    @@include('blocks/loader.html')
+
+    <header class="header">
+        <!-- Swiper -->
+        @@include('blocks/swiper.html')
+        <!-- Slider content -->
+        <div class="header__slide none">
+            @@include('blocks/slide.html')
+        </div>
+        <!-- Header content -->
+        @@include('blocks/header__content.html')
+        @@include('blocks/mobile-nav.html')
+
+    </header>
+
+    <section class="section">
+        <h2>next section...</h2>
+    </section>
+
+    <script src="./js/index.bundle.js"></script>
+</body>
+</html>
